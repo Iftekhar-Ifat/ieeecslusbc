@@ -1,8 +1,13 @@
+import { Home } from "lucide-react";
+
 export default function NavItems() {
   return (
     <>
       <li>
-        <a>Home</a>
+        <a>
+          <Home size={18} />
+          Home
+        </a>
       </li>
       <li>
         <details>
@@ -56,9 +61,6 @@ export default function NavItems() {
             </li>
           </ul>
         </details>
-      </li>
-      <li>
-        <a href="#">Login</a>
       </li>
     </>
   );
