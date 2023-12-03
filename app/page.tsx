@@ -1,7 +1,7 @@
 "use client";
 
 import AchievementSection from "@/components/Homepage/Achievement";
-import ActivitySection from "@/components/Homepage/ActivitySection";
+import ActivitySection from "@/components/Homepage/ActivitySection/ActivitySection";
 import HeroSection from "@/components/Homepage/HeroSection";
 import IntroSection from "@/components/Homepage/IntroSection";
 

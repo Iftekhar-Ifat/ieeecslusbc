@@ -36,7 +36,7 @@ export default function Navbar() {
                 />
               </svg>
             </div>
-            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul className="w-80 menu menu-md dropdown-content mt-3 z-[1] p-2 shadow-md bg-base-100 rounded-box">
               <NavItems />
             </ul>
           </div>

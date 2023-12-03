@@ -1,5 +1,5 @@
 "use-client";
 
 export default function AchievementSection() {
-  return <div>AchievementSection</div>;
+  return <div>Achievement Section</div>;
 }
