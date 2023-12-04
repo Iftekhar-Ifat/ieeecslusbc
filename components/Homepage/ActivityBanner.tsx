@@ -5,7 +5,7 @@ import image_2 from "@/public/assets/Activity_2.jpg"
 import image_3 from "@/public/assets/Activity_3.jpg"
 export default function ActivityBanner() {
     return (
-        <div className="carousel w-full h-[440px] mt-3">
+        <div className="carousel w-full h-[550px] mt-3">
             <div id="slide1" className="carousel-item relative w-full">
                 <Image src={image_1} alt="" className="w-full rounded-xl" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
