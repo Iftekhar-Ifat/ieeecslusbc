@@ -10,8 +10,8 @@ export default function HeroSection() {
         <h2 className="text-[54px] font-bold capitalize">Hello visitors</h2>
         <p className="text-xl font-normal sm:px-2 lg:px-[200px] text-center">
           We are are IEEE Computer society LU SB Chapter. We started our journey
-          at year 0000 with a target to XXXXXXXXXXX. And we are close to our
-          goals everyday, little by little.
+          at year 0000 with a target to. And we are close to our goals everyday,
+          little by little.
         </p>
         <div className="flex gap-3 mt-3">
           <button className="bg-[#045C99] rounded-xl px-6 py-2 text-white hover:text-[#045C99] hover:bg-white font-bold">
