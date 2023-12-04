@@ -9,9 +9,12 @@ export default function ActivitySection() {
         Our Activities
       </h1>
       <ActivityBanner />
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-6 items-center justify-center">
-        <ActivityCards />
+      <div className="flex justify-center">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-6 items-center justify-center">
+          <ActivityCards />
+        </div>
       </div>
+
     </div>
   );
 }
