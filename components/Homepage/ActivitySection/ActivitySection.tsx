@@ -1,6 +1,6 @@
 "use-client";
 
-import ActivityBanner from "../ActivityBanner";
+import ActivityBanner from "./ActivityBanner";
 import ActivityCards from "./ActivityCards";
 export default function ActivitySection() {
   return (
@@ -14,7 +14,6 @@ export default function ActivitySection() {
           <ActivityCards />
         </div>
       </div>
-
     </div>
   );
 }

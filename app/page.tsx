@@ -1,10 +1,10 @@
 "use client";
 
-import AchievementSection from "@/components/Homepage/Achievement";
+import AchievementSection from "@/components/Homepage/AchievementSection/Achievement";
 import ActivitySection from "@/components/Homepage/ActivitySection/ActivitySection";
-import EndSection from "@/components/Homepage/EndSection";
 import HeroSection from "@/components/Homepage/HeroSection";
 import IntroSection from "@/components/Homepage/IntroSection";
+import JoinUsSection from "@/components/Homepage/JoinUsSection";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <IntroSection />
       <ActivitySection />
       <AchievementSection />
-      <EndSection />
+      <JoinUsSection />
     </>
   );
 }
