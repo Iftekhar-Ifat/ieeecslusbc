@@ -1,6 +1,6 @@
 "use client";
 
-import { Home } from "lucide-react";
+import { Activity, BookUser, Home, Phone, Users } from "lucide-react";
 import Link from "next/link";
 
 export default function NavItems() {
@@ -14,26 +14,26 @@ export default function NavItems() {
       </li>
       <li>
         <Link href="/activity">
-          <Home size={18} />
+          <Activity size={18} />
           Activity
         </Link>
       </li>
 
       <li>
         <Link href="/committee">
-          <Home size={18} />
+          <Users size={18} />
           Committee
         </Link>
       </li>
       <li>
         <Link href="about-us">
-          <Home size={18} />
+          <BookUser size={18} />
           About Us
         </Link>
       </li>
       <li>
         <Link href="contact">
-          <Home size={18} />
+          <Phone size={18} />
           Contact
         </Link>
       </li>
