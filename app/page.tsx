@@ -10,9 +10,11 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <IntroSection />
-      <ActivitySection />
-      <AchievementSection />
+      <div className="mx-6 lg:mx-52">
+        <IntroSection />
+        <ActivitySection />
+        <AchievementSection />
+      </div>
       <JoinUsSection />
     </>
   );

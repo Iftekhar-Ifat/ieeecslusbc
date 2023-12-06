@@ -2,7 +2,7 @@
 
 export default function IntroSection() {
   return (
-    <div className="my-16 mx-6 lg:mx-40">
+    <div className="my-16">
       <h1 className="text-4xl text-[#045C99] font-bold text-center">
         What Is IEEE Computer Society
       </h1>

@@ -1,66 +1,41 @@
+"use client";
+
 import { Home } from "lucide-react";
+import Link from "next/link";
 
 export default function NavItems() {
   return (
     <>
       <li>
-        <a>
+        <Link href="/">
           <Home size={18} />
           Home
-        </a>
+        </Link>
       </li>
       <li>
-        <details>
-          <summary>Activity</summary>
-          <ul className="p-2">
-            <li>
-              <a>Submenu 1</a>
-            </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
-          </ul>
-        </details>
+        <Link href="/activity">
+          <Home size={18} />
+          Activity
+        </Link>
       </li>
 
       <li>
-        <details>
-          <summary>About us</summary>
-          <ul className="p-2">
-            <li>
-              <a>Submenu 1</a>
-            </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
-          </ul>
-        </details>
+        <Link href="/committee">
+          <Home size={18} />
+          Committee
+        </Link>
       </li>
       <li>
-        <details>
-          <summary>Team</summary>
-          <ul className="p-2">
-            <li>
-              <a>Submenu 1</a>
-            </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
-          </ul>
-        </details>
+        <Link href="about-us">
+          <Home size={18} />
+          About Us
+        </Link>
       </li>
       <li>
-        <details>
-          <summary>Contact</summary>
-          <ul className="p-2">
-            <li>
-              <a>Submenu 1</a>
-            </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
-          </ul>
-        </details>
+        <Link href="contact">
+          <Home size={18} />
+          Contact
+        </Link>
       </li>
     </>
   );
