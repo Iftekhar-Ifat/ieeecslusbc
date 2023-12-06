@@ -5,7 +5,9 @@ import AchivementIcon_3 from '@/public/assets/icon _photo camera_.svg'
 import AchivementIcon_4 from '@/public/assets/icon _best practices_.svg'
 import AchivementIcon_5 from '@/public/assets/icon _international_.svg'
 import Image from "next/image";
+
 export default function AchievementSection() {
+
   return <div className="mb-[65px] mx-6 lg:mx-40">
     <h1 className="text-4xl text-[#045C99] font-bold text-center mb-3">Achievements</h1>
 
@@ -21,7 +23,7 @@ export default function AchievementSection() {
         </div>
       </div>
 
-      <div className="card sm:w-4/4 lg:w-1/4 bg-[#045C99] shadow-xl">
+      <div className="card sm:w-4/4 lg:w-1/4 bg-[#045C99] shadow-xl hover:scale-110 duration-500 cursor-grab">
         <figure className="px-10 pt-10">
           <Image src={AchivementIcon_2} alt="" />
         </figure>
