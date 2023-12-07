@@ -15,7 +15,7 @@ export default function ActivityCards() {
       {activityCardData.map((card) => (
         <div
           key={card.id}
-          className="max-w-sm p-4 bg-[rgba(4,92,153,0.11)] border border-gray-200 rounded-lg shadow hover:scale-105"
+          className="max-w-sm p-4 bg-[rgba(4,92,153,0.11)] border border-gray-200 rounded-lg shadow hover:scale-105 cursor-grabbing duration-700"
         >
           {card.title === "Research Bootcamp" ? (
             <Microscope size={40} />
