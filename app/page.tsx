@@ -5,7 +5,7 @@ import ActivitySection from "@/components/Homepage/ActivitySection/ActivitySecti
 import HeroSection from "@/components/Homepage/HeroSection";
 import IntroSection from "@/components/Homepage/IntroSection";
 import JoinUsSection from "@/components/Homepage/JoinUsSection";
-import OurJourney from "@/components/Homepage/OurJourney";
+import OurJourney from "@/components/Homepage/OurJourneySection/OurJourney";
 
 export default function Home() {
   return (
