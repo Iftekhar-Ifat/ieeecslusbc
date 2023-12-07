@@ -1,5 +1,8 @@
+import ActivityHero from "@/components/ActivityPage/ActivityHero";
 import React from "react";
 
 export default function Activity() {
-  return <div>Activity</div>;
+  return <div>
+    <ActivityHero />
+  </div>;
 }
