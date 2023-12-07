@@ -5,6 +5,7 @@ import ActivitySection from "@/components/Homepage/ActivitySection/ActivitySecti
 import HeroSection from "@/components/Homepage/HeroSection";
 import IntroSection from "@/components/Homepage/IntroSection";
 import JoinUsSection from "@/components/Homepage/JoinUsSection";
+import OurJourney from "@/components/Homepage/OurJourney";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <div className="mx-6 lg:mx-52">
         <IntroSection />
+        <OurJourney />
         <ActivitySection />
         <AchievementSection />
       </div>

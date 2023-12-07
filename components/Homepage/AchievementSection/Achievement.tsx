@@ -13,7 +13,7 @@ export default function AchievementSection() {
         {achievementCardData.map((card) => (
           <div
             key={card.id}
-            className="card sm:w-4/4 lg:w-1/4 bg-[rgb(4,92,153)] shadow-xl hover:scale-105"
+            className="card sm:w-4/4 lg:w-1/4 bg-[rgb(4,92,153)] shadow-xl hover:scale-105 cursor-grabbing duration-700"
           >
             <figure className="px-10 pt-10">
               <Image src={card.img} alt="card-icon" />
