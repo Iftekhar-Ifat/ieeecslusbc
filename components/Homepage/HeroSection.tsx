@@ -7,7 +7,7 @@ export default function HeroSection() {
     <div className="relative">
       <Image src={Banner} style={{ objectFit: "contain" }} alt="hero-img" />
       <div className="bg-[#045C9966] flex flex-col gap-2 justify-center items-center absolute top-0 h-full text-white">
-        <h2 className="text-[54px] font-bold capitalize">Hello visitors</h2>
+        <h2 className="text-6xl font-bold capitalize">Hello visitors</h2>
         <p className="text-xl font-normal sm:px-2 lg:px-[200px] text-center">
           We are are IEEE Computer society LU SB Chapter. We started our journey
           at year 0000 with a target to. And we are close to our goals everyday,
