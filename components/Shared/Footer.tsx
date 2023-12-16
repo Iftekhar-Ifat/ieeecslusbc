@@ -3,7 +3,7 @@ import { Facebook, Linkedin, Youtube } from "lucide-react";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-[#045C99] text-base-content rounded">
+    <footer className="footer footer-center p-10 bg-[#045C99] text-base-content">
       <nav>
         <Image src={Logo} alt="logo" width={170} />
       </nav>
