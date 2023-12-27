@@ -16,7 +16,7 @@ export default function MembersCard({ selectedSession, memberCategory }: any) {
                 ? data.members.map((member) => (
                     <div
                       key={member.id}
-                      className="card w-96 bg-gray-300 shadow-xl border border-[#045C99]"
+                      className="card w-96 bg-gray-100 shadow-xl border hover:scale-105 cursor-grabbing duration-700"
                     >
                       <figure className="px-4 pt-10">
                         <Image
@@ -32,13 +32,13 @@ export default function MembersCard({ selectedSession, memberCategory }: any) {
                         </h2>
                         <p>{member.description}</p>
                         <div className="card-actions">
-                          <button className="btn btn-circle btn-accent">
+                          <button className="btn btn-circle btn-primary">
                             <Facebook size={20} color="white" />
                           </button>
-                          <button className="btn btn-circle btn-accent">
+                          <button className="btn btn-circle btn-primary">
                             <Linkedin size={20} color="white" />
                           </button>
-                          <button className="btn btn-circle btn-accent">
+                          <button className="btn btn-circle btn-primary">
                             <Youtube size={20} color="white" />
                           </button>
                         </div>

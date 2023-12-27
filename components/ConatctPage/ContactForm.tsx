@@ -1,15 +1,14 @@
 'use client'
 import React from 'react'
-import { MapPin, Phone, Facebook, Linkedin, Youtube, Mail } from 'lucide-react';
-
+import { MapPin, Phone, Facebook, Linkedin, Youtube, Mail } from 'lucide-react'
 
 export default function ContactForm() {
-    const HandleSubmit = (e) => {
-        e.preventDefault()
-        alert("clicked")
-    }
-    return (
-        <div className="mx-6 lg:mx-52">
+  const HandleSubmit = (e) => {
+    e.preventDefault()
+    alert('clicked')
+  }
+  return (
+    <div className="mx-6 lg:mx-52">
             <div>
                 <h1 className='mt-6 font-bold text-5xl text-[#045C99] '>Get in touch</h1>
                 <p className='text-gray-500 font-normal text-xl mt-4'>For any inquiries, feedback or collaboration opportunities, we are here to listen and respond. Feel free to use the contact form provided below, and our friendly team will get back to you promptly. We look forward to connecting with you.</p>
@@ -69,5 +68,5 @@ export default function ContactForm() {
             </div>
 
         </div>
-    )
+  )
 }
