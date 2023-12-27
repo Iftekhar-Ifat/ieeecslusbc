@@ -15,12 +15,12 @@ export default function ContactForm() {
                 <p className='text-gray-500 font-normal text-xl mt-4'>For any inquiries, feedback or collaboration opportunities, we are here to listen and respond. Feel free to use the contact form provided below, and our friendly team will get back to you promptly. We look forward to connecting with you.</p>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 my-6 bg-gray-200 shadow-md rounded-md'>
-                <div className='bg-[#045C99] h-full px-3 py-12 text-white space-y-4'>
+                <div className='bg-[#045C99] h-full px-3 py-12 text-white space-y-4 rounded-md'>
                     <h2 className='font-bold text-xl'>Contact information</h2>
                     <p className='text-gray-300'>If you have any inquiry about our student branch, let us know.</p>
-                    <p className='inline-flex gap-3 text-[15px]'><MapPin size={60} /> Leading University-Bangladesh (AIUB). 408/1, Kuratoli, Khilkhet, Sylhet 1229, Bangladesh.</p>
-                    <p className='inline-flex gap-3 text-[15px]'><Phone size={25} /> +88​01705151681</p>
-                    <p className='inline-flex gap-3 text-[15px]'><Mail size={25} /> ieeeaiubstudentbranch@gmail.com</p>
+                    <p className='inline-flex gap-3 text-[18px]'><MapPin size={50} />Leading University, Kamalbazar, Sylhet 1229, Bangladesh.</p>
+                    <p className='inline-flex gap-1 px-2 text-[15px]'><Phone size={25} />+88​01705151681</p>
+                    <p className='inline-flex gap-1 px-3 text-[15px]'><Mail size={25} />ieeecs@lus.ac.bd</p>
                     <div className="grid grid-flow-col justify-evenly">
                         <a className="p-2">
                             <Facebook size={20} color="white" />
