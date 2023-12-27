@@ -1,5 +1,9 @@
 import Image from "next/image";
 import journeyimage_1 from "@/public/assets/our_journey.jpg";
+import journeyimage_2 from "@/public/assets/oj2.jpg";
+import journeyimage_3 from "@/public/assets/oj3.jpg";
+import journeyimage_4 from "@/public/assets/oj4.jpg";
+import journeyimage_5 from "@/public/assets/oj5.jpg";
 
 export default function OurJourneyCards() {
   return (
@@ -17,7 +21,7 @@ export default function OurJourneyCards() {
         <div className="aspect-[2/3]">
           <Image
             className="inset-0 h-full w-full object-cover rounded-md"
-            src={journeyimage_1}
+            src={journeyimage_2}
             alt=""
           />
         </div>
@@ -26,7 +30,7 @@ export default function OurJourneyCards() {
         <div className="aspect-[2/3]">
           <Image
             className="inset-0 h-full w-full object-cover rounded-md"
-            src={journeyimage_1}
+            src={journeyimage_3}
             alt=""
           />
         </div>
@@ -35,7 +39,7 @@ export default function OurJourneyCards() {
         <div className="aspect-[2/3]">
           <Image
             className="inset-0 h-full w-full object-cover rounded-md"
-            src={journeyimage_1}
+            src={journeyimage_4}
             alt=""
           />
         </div>
@@ -44,7 +48,7 @@ export default function OurJourneyCards() {
         <div className="aspect-[2/3]">
           <Image
             className="inset-0 h-full w-full object-cover rounded-md"
-            src={journeyimage_1}
+            src={journeyimage_5}
             alt=""
           />
         </div>
