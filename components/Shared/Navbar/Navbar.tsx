@@ -1,8 +1,8 @@
-"use-client";
-import Image from "next/image";
-import Logo from "@/public/assets/logo_light.png";
-import { User } from "lucide-react";
-import NavItems from "./NavItems";
+'use-client'
+import Image from 'next/image'
+import Logo from '@/public/assets/logo_light.png'
+import { User } from 'lucide-react'
+import NavItems from './NavItems'
 export default function Navbar() {
   return (
     <div className="navbar bg-base-100">
@@ -43,5 +43,5 @@ export default function Navbar() {
         </div>
       </div>
     </div>
-  );
+  )
 }

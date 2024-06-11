@@ -1,7 +1,14 @@
-"use client";
+'use client'
 
-import { Activity, BookUser, Home, Phone, Users } from "lucide-react";
-import Link from "next/link";
+import {
+  Activity,
+  BookUser,
+  Home,
+  Phone,
+  Users,
+  CalendarCheck,
+} from 'lucide-react'
+import Link from 'next/link'
 
 export default function NavItems() {
   return (
@@ -26,6 +33,12 @@ export default function NavItems() {
         </Link>
       </li>
       <li>
+        <Link href="events">
+          <CalendarCheck size={18} />
+          Events
+        </Link>
+      </li>
+      <li>
         <Link href="about-us">
           <BookUser size={18} />
           About Us
@@ -38,5 +51,5 @@ export default function NavItems() {
         </Link>
       </li>
     </>
-  );
+  )
 }
