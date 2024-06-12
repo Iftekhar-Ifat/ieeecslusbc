@@ -1,9 +1,14 @@
-'use-client'
+'use client'
+
 import Image from 'next/image'
 import Logo from '@/public/assets/logo_light.png'
 import { User } from 'lucide-react'
 import NavItems from './NavItems'
+import Link from 'next/link'
+
 export default function Navbar() {
+  const storedEmail = localStorage.getItem('email')
+  console.log(storedEmail)
   return (
     <div className="navbar bg-base-100">
       <div className="flex w-full justify-between">
@@ -16,9 +21,16 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex navbar-end">
-          <div className="btn btn-ghost">
-            <User />
-          </div>
+          {storedEmail ? (
+            <button className="btn btn-ghost">
+              <User />
+            </button>
+          ) : (
+            <Link href="/registration" className="btn">
+              Sign In
+            </Link>
+          )}
+
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
