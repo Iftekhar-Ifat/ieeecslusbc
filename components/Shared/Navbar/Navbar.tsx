@@ -7,8 +7,10 @@ import NavItems from './NavItems'
 import Link from 'next/link'
 
 export default function Navbar() {
-  const storedEmail = localStorage.getItem('email')
-  console.log(storedEmail)
+  let storedEmail
+  if (typeof window !== 'undefined') {
+    storedEmail = localStorage.getItem('email')
+  }
   return (
     <div className="navbar bg-base-100">
       <div className="flex w-full justify-between">

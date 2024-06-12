@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 
 export default function Registration() {
-  const [memberType, setMemberType] = useState('local') // default to 'global'
+  const [memberType, setMemberType] = useState('local')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
 
